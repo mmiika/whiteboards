@@ -27,9 +27,59 @@ DESIGN GOALS:
 	no static presentation html
 	all server communications via restful services
 	json for all client server data exchange
-	
-	
+	path of least resistance - new team space can be set up in less than a minute (no login, only prove that you are human, you can set up a password later if you wish)
+	convension over configuration (there will be options but they will only override the defaults)
+	does not enforce the rules of scrum, but makes following them possible and maybe easier
 
+DESIGN DREAMS:
+	integrate with skype api
+	each user can have a call me button next to their name - http://www.skype.com/share/buttons/
+	each user can call a skype number and their message will be recored by our server, this can be used to record stand up messages
+	(pie in the sky idea) could even make the number a premium rate number then would have a revenue channel - http://share.skype.com/sites/uk/2007/04/skypeout_premium_call_uk_premi.html $0.20 a minute, stand up messages can be no longer than a minute ($52 per year per user)	
+	
+	
+BACKLOG: (not in any order)
+
+	backlog:
+		crud for the product owner to manage the backlog
+	
+	create team:
+		each team has a single password for their subdomain, no user name
+		the password can be easily changed by the scrum master
+
+	team members:
+		team members don't have to sign up, if they are new they just enter their name and then are in the team
+		anyone can remove a team member, but as long as they have the team password they can just come back and enter their name again
+		we don't care about team member persistance as we collect no data on team members
+
+	permissions: (we want to keep this light)
+		
+		everybody can do the same as everyone else except..
+			
+		team member can't: 
+			delete from the backlog
+			change backlog order
+			reset team password
+
+		scrum master can't: 
+			delete from the backlog
+			change backlog order
+		
+		product owner can't:
+			add post/video to daily stand up
+			reset team password
+
+		comment: We could just make all of these things implied but not enforced?
+
+	daily stand-up
+		can't all do at the same time, so people just leave one message daily
+		message contains - did yesterday, doing today, blockages
+		messages can be text (? max number of charecters)
+		messages can be video or audio (? max file size / length)
+		
+		
+			
+		
 
 
 
