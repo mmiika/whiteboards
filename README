@@ -1,0 +1,38 @@
+TECHNOLOGIES:
+
+	Clietside:
+		language: javascript
+		framework: yui(?)
+		offline: google gears
+
+	Serverside
+		language: ruby
+		framework: ruby on rails
+		database: postgres
+
+	Development Tools (suggested):
+		versioning system: git
+		ide: eclipse (radrails, aptana)
+		db manager: pgadmin 3
+
+PRACTICES:
+
+	scrum with one week iterations (?)
+	solid
+	bdd (with rspec)
+
+DESIGN GOALS:
+
+	single page ui
+	no static presentation html
+	all server communications via restful services
+	json for all client server data exchange
+	
+	
+
+
+
+
+
+	
+
