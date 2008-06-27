@@ -71,11 +71,15 @@ BACKLOG: (not in any order)
 
 		comment: We could just make all of these things implied but not enforced?
 
-	daily stand-up
+	daily stand-up:
 		can't all do at the same time, so people just leave one message daily
 		message contains - did yesterday, doing today, blockages
 		messages can be text (? max number of charecters)
 		messages can be video or audio (? max file size / length)
+
+	task board:
+		task board used to place sprint tasks
+		tasks can be dragged to they can be ordered correctly
 		
 		
 			
