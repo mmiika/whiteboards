@@ -52,7 +52,7 @@ BACKLOG: (not in any order)
 		anyone can remove a team member, but as long as they have the team password they can just come back and enter their name again
 		we don't care about team member persistance as we collect no data on team members
 
-	permissions: (we want to keep this light)
+	permissions: (we want to keep this light..)
 		
 		everybody can do the same as everyone else except..
 			
