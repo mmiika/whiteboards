@@ -1,6 +1,6 @@
 TECHNOLOGIES:
 
-	Clietside:
+	Clientside:
 		language: javascript
 		framework: yui(?)
 		offline: google gears
@@ -14,6 +14,7 @@ TECHNOLOGIES:
 		versioning system: git
 		ide: eclipse (radrails, aptana)
 		db manager: pgadmin 3
+		continuous integration: cruisecontrol.rb
 
 PRACTICES:
 
@@ -28,16 +29,16 @@ DESIGN GOALS:
 	all server communications via restful services
 	json for all client server data exchange
 	path of least resistance - new team space can be set up in less than a minute (no login, only prove that you are human, you can set up a password later if you wish)
-	convension over configuration (there will be options but they will only override the defaults)
+	convention over configuration (there will be options but they will only override the defaults)
 	does not enforce the rules of scrum, but makes following them possible and maybe easier
+	as the project is built in scrum, try to make the app usable as soon as possible: so that we can use our own app to manage building it!
 
 DESIGN DREAMS:
-	integrate with skype api
+	integrate with skype
 	each user can have a call me button next to their name - http://www.skype.com/share/buttons/
 	each user can call a skype number and their message will be recored by our server, this can be used to record stand up messages
 	(pie in the sky idea) could even make the number a premium rate number then would have a revenue channel - http://share.skype.com/sites/uk/2007/04/skypeout_premium_call_uk_premi.html $0.20 a minute, stand up messages can be no longer than a minute ($52 per year per user)	
-	
-	
+
 BACKLOG: (not in any order)
 
 	backlog:
